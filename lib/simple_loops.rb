@@ -28,7 +28,7 @@ def output_array(array)
 end
   
 def return_string_array(array)
-  array == [1,2,3,4,5]
+  array == [5,4,3,2,1]
   count = 0 
   while count < array.length do
     array[count].to_s
